@@ -11,7 +11,7 @@ Original file is located at
 a = input()
 b = list(a)
 c = len(b)
-if c > 6:
+if c > 5:
   print(b[3], b[5])
 else:
   print(a[::-2])
