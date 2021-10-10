@@ -8,7 +8,6 @@ Original file is located at
 """
 
 def greetings(a):
-  a = input().split()
   g = "Доброго времени суток, " + a[0] + ' "Человек" ' + a[1] + "!"
   return g
-greetings(a)
+greetings(input().split())
